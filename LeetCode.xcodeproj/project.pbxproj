@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7906E83C28032365007525FD /* MergeKLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906E83B28032365007525FD /* MergeKLists.swift */; };
+		7906E83E280323A9007525FD /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906E83D280323A9007525FD /* ListNode.swift */; };
+		7906E84028032BAE007525FD /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906E83F28032BAE007525FD /* Heap.swift */; };
+		7906E84328035695007525FD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906E84228035695007525FD /* Global.swift */; };
+		790C963727AEF1FD005C768D /* FourSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790C963627AEF1FC005C768D /* FourSum.swift */; };
+		79723F7A27C1827B00E91138 /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79723F7927C1827B00E91138 /* GenerateParenthesis.swift */; };
+		79723F7C27C1832A00E91138 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79723F7B27C1832A00E91138 /* Bool.swift */; };
+		798AB38E27B8662E0082DFAC /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798AB38D27B8662E0082DFAC /* Solution.swift */; };
+		79A185DE27948C7B00931609 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A185DD27948C7B00931609 /* String.swift */; };
+		79A185E127948DD500931609 /* IntToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A185E027948DD500931609 /* IntToRoman.swift */; };
+		79A185E32794900600931609 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A185E22794900600931609 /* ThreeSum.swift */; };
+		79B944322796C28A004163F0 /* RegExpMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B944312796C28A004163F0 /* RegExpMatch.swift */; };
+		79B9471A279779DC004163F0 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B94719279779DC004163F0 /* TimeCounter.swift */; };
+		79B9471F27977B28004163F0 /* ThreeSumTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9471E27977B28004163F0 /* ThreeSumTestData.swift */; };
+		79C93A0527B862790097583B /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C93A0427B862790097583B /* ValidParentheses.swift */; };
+		79CAAC1A279481D200F8DE13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAAC19279481D200F8DE13 /* main.swift */; };
+		79CAAC212794822700F8DE13 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAAC202794822700F8DE13 /* Trie.swift */; };
+		79CAAC242794824700F8DE13 /* LCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAAC232794824700F8DE13 /* LCP.swift */; };
+		79F1602528148D0F00742CB7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F1602428148D0F00742CB7 /* Task.swift */; };
+		79F1602728148FCD00742CB7 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F1602628148FCD00742CB7 /* Tasks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79CAAC14279481D200F8DE13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7906E83B28032365007525FD /* MergeKLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKLists.swift; sourceTree = "<group>"; };
+		7906E83D280323A9007525FD /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		7906E83F28032BAE007525FD /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		7906E84228035695007525FD /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		790C963627AEF1FC005C768D /* FourSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSum.swift; sourceTree = "<group>"; };
+		79723F7927C1827B00E91138 /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
+		79723F7B27C1832A00E91138 /* Bool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		798AB38D27B8662E0082DFAC /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		79A185DD27948C7B00931609 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		79A185E027948DD500931609 /* IntToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntToRoman.swift; sourceTree = "<group>"; };
+		79A185E22794900600931609 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
+		79B944312796C28A004163F0 /* RegExpMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegExpMatch.swift; sourceTree = "<group>"; };
+		79B94719279779DC004163F0 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		79B9471E27977B28004163F0 /* ThreeSumTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumTestData.swift; sourceTree = "<group>"; };
+		79C93A0427B862790097583B /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
+		79CAAC16279481D200F8DE13 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CAAC19279481D200F8DE13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		79CAAC202794822700F8DE13 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		79CAAC232794824700F8DE13 /* LCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCP.swift; sourceTree = "<group>"; };
+		79F1602428148D0F00742CB7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		79F1602628148FCD00742CB7 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79CAAC13279481D200F8DE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7906E8412803567B007525FD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				79B9471627977993004163F0 /* Utils */,
+				79A185DC27948C6D00931609 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		798AB38627B864600082DFAC /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				79F1602428148D0F00742CB7 /* Task.swift */,
+				798AB38F27B866380082DFAC /* Tasks */,
+				798AB38D27B8662E0082DFAC /* Solution.swift */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		798AB38F27B866380082DFAC /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				79F1602628148FCD00742CB7 /* Tasks.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		79A185DC27948C6D00931609 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79A185DD27948C7B00931609 /* String.swift */,
+				79723F7B27C1832A00E91138 /* Bool.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		79A185DF27948DC500931609 /* AlgoTasks */ = {
+			isa = PBXGroup;
+			children = (
+				79C93A0727B862B40097583B /* Middle */,
+				79C93A0627B862AC0097583B /* Hard */,
+				79C93A0327B862690097583B /* Easy */,
+			);
+			path = AlgoTasks;
+			sourceTree = "<group>";
+		};
+		79B9471627977993004163F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				79B94719279779DC004163F0 /* TimeCounter.swift */,
+				7906E84228035695007525FD /* Global.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		79B9471D27977B19004163F0 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				79B9471E27977B28004163F0 /* ThreeSumTestData.swift */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		79C93A0327B862690097583B /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				79C93A0427B862790097583B /* ValidParentheses.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		79C93A0627B862AC0097583B /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+				790C963627AEF1FC005C768D /* FourSum.swift */,
+				79CAAC232794824700F8DE13 /* LCP.swift */,
+				7906E83B28032365007525FD /* MergeKLists.swift */,
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		79C93A0727B862B40097583B /* Middle */ = {
+			isa = PBXGroup;
+			children = (
+				79A185E027948DD500931609 /* IntToRoman.swift */,
+				79A185E22794900600931609 /* ThreeSum.swift */,
+				79B944312796C28A004163F0 /* RegExpMatch.swift */,
+				79723F7927C1827B00E91138 /* GenerateParenthesis.swift */,
+			);
+			path = Middle;
+			sourceTree = "<group>";
+		};
+		79C93A0827B863410097583B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				798AB38627B864600082DFAC /* Solution */,
+				79CAAC19279481D200F8DE13 /* main.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		79CAAC0D279481D200F8DE13 = {
+			isa = PBXGroup;
+			children = (
+				79CAAC18279481D200F8DE13 /* LeetCode */,
+				79CAAC17279481D200F8DE13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79CAAC17279481D200F8DE13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79CAAC16279481D200F8DE13 /* LeetCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79CAAC18279481D200F8DE13 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				79C93A0827B863410097583B /* Main */,
+				79B9471D27977B19004163F0 /* TestData */,
+				7906E8412803567B007525FD /* Common */,
+				79A185DF27948DC500931609 /* AlgoTasks */,
+				79CAAC222794823A00F8DE13 /* DataStructs */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		79CAAC222794823A00F8DE13 /* DataStructs */ = {
+			isa = PBXGroup;
+			children = (
+				79CAAC202794822700F8DE13 /* Trie.swift */,
+				7906E83D280323A9007525FD /* ListNode.swift */,
+				7906E83F28032BAE007525FD /* Heap.swift */,
+			);
+			path = DataStructs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79CAAC15279481D200F8DE13 /* LeetCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CAAC1D279481D200F8DE13 /* Build configuration list for PBXNativeTarget "LeetCode" */;
+			buildPhases = (
+				79CAAC12279481D200F8DE13 /* Sources */,
+				79CAAC13279481D200F8DE13 /* Frameworks */,
+				79CAAC14279481D200F8DE13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCode;
+			productName = LeetCode;
+			productReference = 79CAAC16279481D200F8DE13 /* LeetCode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79CAAC0E279481D200F8DE13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					79CAAC15279481D200F8DE13 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 79CAAC11279481D200F8DE13 /* Build configuration list for PBXProject "LeetCode" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79CAAC0D279481D200F8DE13;
+			productRefGroup = 79CAAC17279481D200F8DE13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CAAC15279481D200F8DE13 /* LeetCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79CAAC12279481D200F8DE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F1602728148FCD00742CB7 /* Tasks.swift in Sources */,
+				79CAAC1A279481D200F8DE13 /* main.swift in Sources */,
+				79C93A0527B862790097583B /* ValidParentheses.swift in Sources */,
+				79CAAC242794824700F8DE13 /* LCP.swift in Sources */,
+				79F1602528148D0F00742CB7 /* Task.swift in Sources */,
+				7906E83C28032365007525FD /* MergeKLists.swift in Sources */,
+				79A185DE27948C7B00931609 /* String.swift in Sources */,
+				79723F7A27C1827B00E91138 /* GenerateParenthesis.swift in Sources */,
+				798AB38E27B8662E0082DFAC /* Solution.swift in Sources */,
+				79B9471A279779DC004163F0 /* TimeCounter.swift in Sources */,
+				7906E83E280323A9007525FD /* ListNode.swift in Sources */,
+				79B9471F27977B28004163F0 /* ThreeSumTestData.swift in Sources */,
+				7906E84028032BAE007525FD /* Heap.swift in Sources */,
+				79B944322796C28A004163F0 /* RegExpMatch.swift in Sources */,
+				79723F7C27C1832A00E91138 /* Bool.swift in Sources */,
+				79CAAC212794822700F8DE13 /* Trie.swift in Sources */,
+				790C963727AEF1FD005C768D /* FourSum.swift in Sources */,
+				79A185E32794900600931609 /* ThreeSum.swift in Sources */,
+				79A185E127948DD500931609 /* IntToRoman.swift in Sources */,
+				7906E84328035695007525FD /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79CAAC1B279481D200F8DE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79CAAC1C279481D200F8DE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		79CAAC1E279481D200F8DE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GV9HU2JH8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		79CAAC1F279481D200F8DE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GV9HU2JH8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79CAAC11279481D200F8DE13 /* Build configuration list for PBXProject "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CAAC1B279481D200F8DE13 /* Debug */,
+				79CAAC1C279481D200F8DE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CAAC1D279481D200F8DE13 /* Build configuration list for PBXNativeTarget "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CAAC1E279481D200F8DE13 /* Debug */,
+				79CAAC1F279481D200F8DE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79CAAC0E279481D200F8DE13 /* Project object */;
+}
