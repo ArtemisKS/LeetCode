@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ValidParentheses {
+struct ValidParentheses {
     
     private class Stack<T> {
         private var array: [T] = []

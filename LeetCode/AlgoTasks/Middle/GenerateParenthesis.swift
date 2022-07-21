@@ -7,7 +7,7 @@
 
 import Foundation
 
-class GenerateParenthesis {
+struct GenerateParenthesis {
     
     func generateParenthesisNaive(_ n: Int) -> [String] {
         var result: [String] = []

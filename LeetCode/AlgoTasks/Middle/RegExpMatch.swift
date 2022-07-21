@@ -7,7 +7,7 @@
 
 import Foundation
 
-class RegExpMatch {
+struct RegExpMatch {
     
     func isMatch(_ s: String, _ p: String) -> Bool {
             guard !p.isEmpty else { return s.isEmpty }

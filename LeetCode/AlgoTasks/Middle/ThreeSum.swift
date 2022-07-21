@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ThreeSum {
+struct ThreeSum {
     
     func threeSum(_ nums: [Int], iterative: Bool = true) -> [[Int]] {
         iterative ? threeSumIter(nums) : threeSumRec(nums)

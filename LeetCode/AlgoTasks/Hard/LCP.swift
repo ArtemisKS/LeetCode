@@ -7,7 +7,7 @@
 
 import Foundation
 
-class LCP {
+struct LCP {
     
     func longestCommonPrefix(_ strs: [String], naiveApproach: Bool = false) -> String {
         naiveApproach ?

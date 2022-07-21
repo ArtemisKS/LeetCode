@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MergeKLists {
+struct MergeKLists {
     
     func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
         let lists = lists.compactMap { $0 }

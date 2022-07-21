@@ -28,9 +28,19 @@ private extension Solution {
     func solveEasy(task: Task.Easy) {
         switch task {
         case let .validParentheses(input):
-            let solution = ValidParentheses()
-            let result = solution.isValid(input)
+            let result = ValidParentheses().isValid(input)
             print("String '\(input)' \(result ? "has" : "doesn't have") valid parentheses")
+        case let .removeDuplicates(originalNums):
+            var nums = originalNums
+            RemoveDuplicates().removeDuplicates(&nums)
+            print("Remove duplicates for \(originalNums):\n\(nums)")
+        case let .removeElement(originalNums, val):
+            var nums = originalNums
+            let k = RemoveElement().removeElement(&nums, val)
+            print("Remove element \(val) for \(originalNums):\n\(nums); k: \(k)")
+        case let .strStr(haystack, needle):
+            let index = StrStr().strStr(haystack, needle)
+            print("StrStr index of \(needle) in \(haystack) is: \(index)")
         }
     }
 }
@@ -42,24 +52,33 @@ private extension Solution {
     func solveMiddle(task: Task.Middle) {
         switch task {
         case let .intToRoman(num):
-            let intToRoman = IntToRoman()
-            let result = intToRoman.intToRoman(num)
+            let result = IntToRoman().intToRoman(num)
             print("\(num) as a roman number: \(result)")
         case let .regExpMatch(s, p):
-            let regExpMatch = RegExpMatch()
-            let result = regExpMatch.isMatch(s, p)
+            let result = RegExpMatch().isMatch(s, p)
             print("\(s) \(result ? "is" : "isn't") matched with predicate \(p)")
         case let .threeSum(nums):
-            let threeSum = ThreeSum()
-            let result = threeSum.threeSum(nums)
+            let result = ThreeSum().threeSum(nums)
             print("Three sums of \(nums.prefix(10)) \(nums.count > 10 ? "... " : ""): \(result)")
         case let .generateParenthesis(num, naive):
             let genPar = GenerateParenthesis()
             let result = naive ? genPar.generateParenthesisNaive(num) : genPar.generateParenthesis(num)
             print("Generated valid parenthesis combinations of \(num) pairs of brackets: \(result)")
+        case let .swapPairs(lists):
+            let result = SwapPairs().swapPairs(mapToListNode(array: lists))
+            let resultString = "Result of swapPairs for \(lists) is %@"
+            if let result = result {
+                print(String(format: resultString, ":\n \(result)"))
+            } else {
+                print(String(format: resultString, "nil"))
+            }
+        case let .divide(dividend, divisor):
+            let result = Divide().divide(dividend, divisor)
+            print("Quotient of division of \(dividend) by \(divisor) is \(result)")
         }
     }
 }
+
 
 // MARK: - Hard
 
@@ -68,36 +87,38 @@ private extension Solution {
     func solveHard(task: Task.Hard) {
         switch task {
         case let .lcp(input, naive):
-            let lcp = LCP()
-            let result = lcp.longestCommonPrefix(input, naiveApproach: naive)
+            let result = LCP().longestCommonPrefix(input, naiveApproach: naive)
             print("LCP of \(input): '\(result)'")
         case let .fourSum(nums, target):
-            let fourSum = FourSum()
-            let result = fourSum.fourSum(nums, target)
+            let result = FourSum().fourSum(nums, target)
             print("Three sums of \(nums.prefix(10)) \(nums.count > 10 ? "... " : ""): \(result)")
         case let .mergeKLists(lists):
-            let mergeKLists = MergeKLists()
-            let result = mergeKLists.mergeKLists(mapToListNodes(array: lists))
+            let result = MergeKLists().mergeKLists(mapToListNodes(array: lists))
             let resultString = "Result of mergeKLists for \(lists) is %@"
             if let result = result {
                 print(String(format: resultString, ":\n \(result)"))
             } else {
                 print(String(format: resultString, "nil"))
             }
+        case let .findSubstring(s, words):
+            let result = FindSubstring().findSubstring(s, words)
+            print("Resulting indices of finding substring for words \(words) in \(s): \(result)")
         }
     }
     
     func mapToListNodes(array: [[Int]]) -> [ListNode?] {
-        array.map { arr in
-            var node: ListNode? = ListNode()
-            let head = node
-            arr.enumerated().forEach { index, val in
-                node?.val = val
-                guard index != arr.count - 1 else { return }
-                node?.next = ListNode()
-                node = node?.next
-            }
-            return head
+        array.map { mapToListNode(array: $0) }
+    }
+    
+    func mapToListNode(array: [Int]) -> ListNode? {
+        var node: ListNode? = ListNode()
+        let head = node
+        array.enumerated().forEach { index, val in
+            node?.val = val
+            guard index != array.count - 1 else { return }
+            node?.next = ListNode()
+            node = node?.next
         }
+        return head
     }
 }

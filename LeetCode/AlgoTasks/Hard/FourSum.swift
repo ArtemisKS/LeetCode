@@ -5,7 +5,7 @@
 //  Created by Artem Kupriianets on 05.02.2022.
 //
 
-class FourSum {
+struct FourSum {
     
     func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
         kSum(nums.sorted(), target, 4)
