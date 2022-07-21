@@ -33,7 +33,7 @@ enum Task {
         case generateParenthesis(num: Int, naive: Bool)
         case swapPairs(lists: [Int])
         case divide(dividend: Int, divisor: Int)
-        
+        case multiplyMatrices(_ m1: [[Any]], _ m2: [[Any]])
     }
     
     // MARK: - Hard

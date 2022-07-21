@@ -75,10 +75,23 @@ private extension Solution {
         case let .divide(dividend, divisor):
             let result = Divide().divide(dividend, divisor)
             print("Quotient of division of \(dividend) by \(divisor) is \(result)")
+        case let .multiplyMatrices(m1, m2):
+            let result = MultiplyMatrices().multiplyMatrices(m1, m2)
+            print("Result of multiplication of matrices m1\n\(String(describing: m1))\nand\n\(String(describing: m2)) is \(String(describing: result))")
         }
     }
 }
 
+protocol ArrayMatricesRepresentable: CustomStringConvertible {}
+
+extension Array: ArrayMatricesRepresentable where Self.Element == [Any] {}
+
+extension String {
+    init<Array>(describing instance: Array) where Array: ArrayMatricesRepresentable & Sequence {
+        let values = instance.map { "\($0)" }.joined(separator: ",\n")
+        self.init("[\n\(values)\n]")
+    }
+}
 
 // MARK: - Hard
 
